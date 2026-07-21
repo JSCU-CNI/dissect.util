@@ -8,7 +8,7 @@ from unittest.mock import patch
 
 import pytest
 
-from dissect.util.plist import NSKeyedArchiver
+from dissect.util.serialize.plist import NSKeyedArchiver
 
 
 @pytest.mark.skipif(sys.version_info < (3, 8), reason="requires python3.8 or higher")
